@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: "Montserrat", Arial, Helvetica, sans-serif;*/
+    font-family: 'Courier New', Courier, monospace;
     height: 100vh;
     margin: 0;
     overflow: hidden;
@@ -20,12 +21,12 @@ h2 {
 }
 
 img {
-    width: 300px;
+    width: 100px;
     height: auto;
 }
 
 #logo {
-    font-size: 24px;
+    font-size: 28px;
     color: #f9faf8;
     font-weight: 700;
     margin-right: auto;
@@ -41,12 +42,20 @@ img {
     margin-top: 8px;
 }
 
+#button1:hover {
+    color:  #3882f6;
+    background-color: white;
+    cursor: pointer;
+    border-color: #3882f6;
+}
+
 .cta > p {
     color: #e5e7eb;
     max-width: 600px;
 }
 .cta {
     margin-right: auto;
+    max-width: 600px;
 }
 
 
@@ -61,7 +70,7 @@ img {
 .first-block {
     background-color: #1f2937;
     display: flex;
-    padding: 64px 200px;
+    padding: 64px 300px;
     align-items: center;
     gap: 32px;
 }
@@ -69,7 +78,7 @@ img {
 .second-block {
     display: flex;
     gap: 32px;
-    padding: 32px;
+    padding: 90px;
     flex-direction: column;
     align-items: center;
 }
@@ -78,17 +87,30 @@ img {
     gap: 32px;
 }
 
+.card {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
 
 a {
     text-decoration: none;
     color: white;
 }
 
+a:hover {
+    color: #3882f6;
+}
+
+
 ul {
     display: flex;
     list-style-type: none;
-    gap: 16px;
+    gap: 32px;
     justify-content: flex-end;
+    font-size: 20px;
 }
 
 .third-block {
@@ -112,8 +134,8 @@ ul {
 
 .banner {
     background-color: #3882f6;
-    margin: 68px 200px;
-    padding: 32px 128px;
+    margin: 68px 300px;
+    padding: 32px 100px;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -128,6 +150,7 @@ h4 {
 .cta-two > p {
     color: #f9faf8;
     font-size: 18px;
+    max-width: 900px;
 }
 
 #button-two {
@@ -137,6 +160,8 @@ h4 {
     background-color: #3882f6;
     border-radius: 8px;
     border-color: white;
+    border-style: double;
+    font-weight: 800;
 }
 
 #button-two:hover {
@@ -150,4 +175,8 @@ h4 {
     color: white;
     text-align: center;
     padding: 36px;
+}
+
+.img-one > img {
+    width: 300px;
 }
