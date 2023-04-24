@@ -1,12 +1,10 @@
 body {
-    /*font-family: "Montserrat", Arial, Helvetica, sans-serif;*/
     font-family: 'Courier New', Courier, monospace;
     height: 100vh;
     margin: 0;
     overflow: hidden;
     overflow-y: scroll;
 }
-
 
 h1 {
     font-size: 48px;
@@ -58,8 +56,6 @@ img {
     max-width: 600px;
 }
 
-
-
 .header {
     display: flex;
     align-items: center;
@@ -103,7 +99,6 @@ a {
 a:hover {
     color: #3882f6;
 }
-
 
 ul {
     display: flex;
